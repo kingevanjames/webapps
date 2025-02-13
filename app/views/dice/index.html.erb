@@ -1,0 +1,21 @@
+<h1>Let's Play Craps!</h1>
+
+<%
+  dice1 = rand(1..6) 
+  dice2 = rand(1..6)
+  total = dice1 +dice2
+%>
+
+<p>
+You rolled 
+<img src="/images/dice/<%= dice1%>.svg" alt="">
+<img src="/images/dice/<%= dice2%>.svg" alt="">
+
+<p>
+your score is <%= total%> </p>
+</p>
+
+<p> 
+  <a href="/dice">Roll again!
+
+</p>
